@@ -1,0 +1,28 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; 
+}
+.radio {
+    /* position: relative; */
+    display: inline-table;
+    /* margin-top: 10px; */
+}
+/*.tables input[type="file"]{
+  display: none;
+}*/

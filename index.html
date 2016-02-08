@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Test on JS</title>
+	<meta content="" name="description" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+<h1>Test on JQuery</h1>
+  <div class="tables">
+    <ul class="list-inline">
+      <li class="scope">
+        <label>
+          <input type="radio" id="ajaxSmall" class="radio" name="377" value="small">
+          <span class="radio">small</span>
+        </label>
+      </li>
+      <li class="scope">
+        <label>
+          <input type="radio" id="ajaxLarge" class="radio2" name="377" value="large">
+          <span class="radio2">large</span>
+        </label>
+      </li>
+      <li>
+        <label>
+          <input class="radio3" name="377" type="radio" value="custom">
+          <span>custom</span>
+        </label>
+    	</li>
+      <li>
+         <input type="file" accept='json/*' id="select_file"  placeholder="Chose some .json">
+      </li>
+    </ul>
+    <form class="pristinevalid">
+      <div class="form-group">
+        <label for="filter">Filter:</label>
+        <input type="text" class="form-control" id="filter" placeholder="Filter">
+      </div>
+    </form>
+		<div id="update"></div>
+    <div ng-show="preview" class="ng-hide">
+      <h4>Preview row</h4>
+      <div>Выбрано: <span id="preview" class="ng-binding"></span></div>
+    </div>
+  </div>
+    
+	<!--[if lt IE 9]>
+	<script src="/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+	<script src="/bower_components/html5shiv/dist/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+  <script src="/libs/jquery/dist/jquery.min.js"></script>
+
+  <script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
